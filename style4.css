@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.contenedor {
+    width: 80%;
+    margin: 50px auto;
+    border: 2px dashed #ccc;
+    padding: 20px;
+    min-height: 400px; 
+    position: relative; 
+}
+
+
+.caja-estatica {
+    background-color: #ffadad;
+    border: 1px solid #d45f5f;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.caja-relativa {
+    background-color: #ffd6a5;
+    border: 1px solid #d48f5f;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative; 
+    top: 20px; 
+    left: 30px; 
+
+ }
+
+.caja-absoluta {
+    background-color: #a0c4ff;
+    border: 1px solid #5f7ed4;
+    padding: 10px;
+    position: absolute; 
+    top: 50px;
+    right: 20px;
+}
+
+.caja-fija {
+    background-color: #baffc9;
+    border: 1px solid #5fd47d;
+    padding: 10px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 100; 
+}
+
+
+span {
+    background-color: #ffe0b2;
+    border: 1px solid #d4a75f;
+    padding: 5px;
+    margin: 5px; 
+    display: inline; 
+}
+
+
+.inline-block-ejemplo {
+    background-color: #c9ffd9;
+    border: 1px solid #5fd481;
+    padding: 10px;
+    margin: 10px; 
+    width: 150px; 
+    height: 50px;
+    display: inline-block;
+}
+
+
+.oculto {
+    display: none; 
+}
+
+
+.invisible {
+    visibility: hidden; 
+}
+
+
+.display-ejemplo {
+    margin-top: 100px;
+    border-top: 2px dashed #ccc;
+    padding-top: 20px;
+}

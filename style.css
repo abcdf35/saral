@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center;
+    min-height: 100vh;      
+    background-color: #f4f4f4; 
+    margin: 0;             
+    padding: 20px;          
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 40px;
+}
+
+
+.box-model-ejemplo {
+    
+    width: 250px;         
+    height: 100px;          
+    background-color: #e0f7fa; 
+    color: #00796b;         
+    text-align: center;
+    line-height: 100px;     
+    font-weight: bold;
+    font-size: 1.2em;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    border: 5px solid #00acc1; 
+    margin: 30px;
+    box-sizing: content-box; 
+
+
+}
+
+.ejem{
+    
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 0.8em;
+    margin-top: 10px;
+
+}
+
+
+.explicacion-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.explicacion-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.explicacion-item strong {
+    color: #00796b;
+    min-width: 80px;
+}
+
+.explicacion-item p {
+    margin: 0;
+    line-height: 1.5;
+}
+
