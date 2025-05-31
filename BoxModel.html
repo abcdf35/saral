@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Box Model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <center><a href="PagPrincipal.html">PagPrincipal</a></center>
+        <center><a href="Seguntema.html">Seguntemma</a></center>
+        <center><a href="FlexboxyGrid.html">FlexboxyGrid</a></center>
+    </nav>
+
+    <h1>Ejemplo del Box Model de CSS</h1>
+
+    <div class="box-model-ejemplo">
+        ¡Contenido de la caja!
+    </div>
+
+    <div class="ejem">
+       
+    </div>
+    <div class="ejem">
+    </div>
+
+    <div class="explicacion-container">
+        <h3>Componentes del Box Model:</h3>
+        <div class="explicacion-item">
+            <strong>Contenido:</strong>
+            <p>Es el área donde se muestra el contenido real del elemento (texto, imágenes). Su tamaño se controla con `width` y `height`.</p>
+        </div>
+        <div class="explicacion-item">
+            <strong>Padding:</strong>
+            <p>Es el espacio transparente que rodea el contenido, pero aún está dentro del borde. Se define con `padding`.</p>
+        </div>
+        <div class="explicacion-item">
+            <strong>Border:</strong>
+            <p>Es la línea visible que rodea el padding y el contenido. Se define con `border`.</p>
+        </div>
+        <div class="explicacion-item">
+            <strong>Margin:</strong>
+            <p>Es el espacio transparente fuera del borde, que separa esta caja de otros elementos. Se define con `margin`.</p>
+        </div>
+        <div class="explicacion-item">
+            <strong>box-sizing:</strong>
+            <p>Propiedad crucial. Por defecto (`content-box`), `width` y `height` solo afectan al contenido, sumando padding y border al tamaño total. Con `border-box`, `width` y `height` incluyen padding y border, lo que simplifica mucho el diseño.</p>
+        </div>
+    </div>
+
+</body>
+</html>
